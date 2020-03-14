@@ -7,8 +7,13 @@
 <body>
 	<script type="text/javascript" src="generar.js"></script>
 	<div id="contenedor">
-		<div id="arriba">Aqui va una cabecera de opciones por si acaso</div>
-		<div id="abajo">Aqui deberia de ir el juego</div>
+		<div id="izquierda">Aqui van a venir las instrucciones y las puntuaciones</div>
+		<div id="derecha">Aqui deberia de ir el juego
+			<div id="arriba">Aqui va a venir el tablero
+				<canvas id="canvas"></canvas>
+			</div>
+			<div id="abajo">Aqui van a estar los minijjuegos</div>
+		</div>
 	</div>
 </body>
 </html>
